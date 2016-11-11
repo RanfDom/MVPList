@@ -13,6 +13,8 @@
 		E735CFA61DD5672C00968633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E735CFA41DD5672C00968633 /* Main.storyboard */; };
 		E735CFA81DD5672C00968633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E735CFA71DD5672C00968633 /* Assets.xcassets */; };
 		E735CFAB1DD5672C00968633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E735CFA91DD5672C00968633 /* LaunchScreen.storyboard */; };
+		E735CFB71DD5677A00968633 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = E735CFB31DD5677A00968633 /* Model.m */; };
+		E735CFB81DD5677A00968633 /* Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E735CFB51DD5677A00968633 /* Presenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		E735CFA71DD5672C00968633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E735CFAA1DD5672C00968633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E735CFAC1DD5672C00968633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E735CFB21DD5677A00968633 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		E735CFB31DD5677A00968633 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		E735CFB41DD5677A00968633 /* Presenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presenter.h; sourceTree = "<group>"; };
+		E735CFB51DD5677A00968633 /* Presenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presenter.m; sourceTree = "<group>"; };
+		E735CFB61DD5677A00968633 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 		E735CF9A1DD5672C00968633 /* ListMVP */ = {
 			isa = PBXGroup;
 			children = (
+				E735CFB21DD5677A00968633 /* Model.h */,
+				E735CFB31DD5677A00968633 /* Model.m */,
+				E735CFB41DD5677A00968633 /* Presenter.h */,
+				E735CFB51DD5677A00968633 /* Presenter.m */,
+				E735CFB61DD5677A00968633 /* View.h */,
 				E735CF9E1DD5672C00968633 /* AppDelegate.h */,
 				E735CF9F1DD5672C00968633 /* AppDelegate.m */,
 				E735CFA11DD5672C00968633 /* ViewController.h */,
@@ -151,9 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E735CFB81DD5677A00968633 /* Presenter.m in Sources */,
 				E735CFA31DD5672C00968633 /* ViewController.m in Sources */,
 				E735CFA01DD5672C00968633 /* AppDelegate.m in Sources */,
 				E735CF9D1DD5672C00968633 /* main.m in Sources */,
+				E735CFB71DD5677A00968633 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
